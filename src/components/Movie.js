@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams, useHistory } from 'react-router-dom';
 import { connect } from "react-redux";
 import { deleteMovie } from "./../actions/movieActions";
-import { addFavorite, toggleFavorites } from "./../actions/favoritesActions";
+import { addFavorite } from "./../actions/favoritesActions";
 
 const Movie = (props) => {
     const { id } = useParams();
